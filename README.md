@@ -20,7 +20,7 @@ curl -i -X POST localhost:3000/ -H "Content-Type: application/json" -d '{"data":
 
 # Deploy
 
-Para a execução: sam local start-api
+Parar a execução: sam local start-api
 
 # E executa
 
