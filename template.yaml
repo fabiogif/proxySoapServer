@@ -25,7 +25,7 @@ Resources:
 Outputs:
   PostOffices:
     Description: "Test the API Gateway endpoint URL for Prod stage for PostOffices"
-    Value: !Sub 'curl -i -X POST https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/ -d ''{"data": 123}'''
+    Value: !Sub 'curl -i -X POST https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/ -d ''{"data": 40325465}'''
 
   WatchLogsLocally:
     Description: "To watch the logs locally, use the following command"
