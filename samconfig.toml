@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "proxySoapServer"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-sd6nv8ofr7fe"
+s3_prefix = "proxySoapServer"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
